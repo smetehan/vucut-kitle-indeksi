@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class project {
+    public static void main(String[] args) {
+
+double kilo, boy, indeks;
+Scanner kitle=new Scanner(System.in);
+System.out.print("Lutfen kilonuzu (kg cinsinden) giriniz :");
+kilo=kitle.nextDouble();
+System.out.print("Lutfen boyunuzu (metre cinsinden) giriniz :");
+ boy = kitle.nextDouble();
+
+indeks = kilo/(boy*boy);
+ System.out.print("Vucut kitle indeksiniz :"+indeks);
+
+
+
+
+    }
+}
